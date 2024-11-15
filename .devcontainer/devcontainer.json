@@ -17,8 +17,8 @@
 	"postStartCommand": "npm install",
 
 	"containerEnv": {
-    		"MY_CONTAINER_VAR": "abcd",
-    		"MY_CONTAINER_VAR2": "efgh"
+    		"VAR1": "value1",
+    		"VAR2": "value2"
 	}
 
 
