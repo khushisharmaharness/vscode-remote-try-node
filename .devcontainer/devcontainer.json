@@ -1,26 +1,6 @@
-
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-	"name": "Node.js",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [9000],
-
-	// Use 'portsAttributes' to set default properties for specific forwarded ports. 
-	// More info: https://containers.dev/implementors/json_reference/#port-attributes
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "yarn install",
-	"postStartCommand": "npm install",
-
-	"containerEnv": {
-    		"VAR1": "value1",
-    		"VAR2": "value2"
-	}
-
-
+	"postCreateCommand": "yarn install"
 
 }
