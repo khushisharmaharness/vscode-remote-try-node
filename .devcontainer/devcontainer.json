@@ -2,9 +2,6 @@
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
 	"forwardPorts": [9000],
 	"postCreateCommand": "yarn install",
-	"runArgs": ["--env", "VAR1=abcd", "VAR2=defg"],
-  	"containerUser": "root",
-  	"remoteUser": "vscode",
   	"customizations": {
     		"vscode": {
      	 "extensions": ["streetsidesoftware.code-spell-checker"]
